@@ -41,6 +41,6 @@ export default function useFetchJobs(params, page) {
       cancelToken.cancel()
     }
   }, [params, page])
-
+  console.log(state)
   return state
 }
